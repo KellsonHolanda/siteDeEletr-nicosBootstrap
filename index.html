@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrapDocs/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+    <title>bootstrapProject</title>
+</head>
+
+<body>
+
+    <header id="cabecalho">
+        <div class="navbar-expand-lg navbar ">
+            <div class="container">
+                <div class="mobile">
+                    <h1>Loja de Eletrônicos Código Fonte</h1>
+                    <p class="lead">A maior variedade de Eletrônicos</p>
+                </div>
+                <div class="justify-content-end">
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="border-radius: 20px" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="border-radius: 20px" href="#servicos">Serviços</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <div class="carousel carousel-fade slide" data-bs-ride="carousel" id="carousel">
+        <div class="carousel-inner">
+            <div data-bs-interval="4000" class="carousel-item active">
+                <img class="w-100" src="./imagens/carousel/Leonardo_Signature_smartphones_photography_1.jpg" alt="quatro celulares com câmeras apontadas para uma paisagem com rochas e água">
+                <span class="carousel-caption">Imagem 1</span>
+            </div>
+            <div data-bs-interval="4000" class="carousel-item">
+                <img class="w-100" src="./imagens/carousel/Leonardo_Signature_modern_computer_1.jpg" alt="ilustração de uma série de computadores organizados uma mesa">
+                <span class="carousel-caption">Imagem 2</span>
+            </div>
+            <div data-bs-interval="4000" class="carousel-item">
+                <img class="w-100" src="./imagens/carousel/Leonardo_Signature_computer_photography_0.jpg" alt="três modelos de laptop dispostos de maneira organizada em uma mesa marrom">
+                <span class="carousel-caption">Imagem 3</span>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" class="carousel-control-next" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators" style="z-index: 1">
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        
+    </div>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="produtos">
+            <div class="container">
+                <h2>Produtos</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4" style="width: 15rem;">
+                        <div class="card">
+                            <img src="./imagens/outras/Laptop1.jpg" alt="imagem de um notebook exposto ao entardecer">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Notebook Origin</h5>
+                                <p class="card-text"><small>32 GB de RAM e 256 Gigas de Armazenamento</small>
+                                </p>
+                                <span>
+                                    Por: R$ 8.500,00 <small>à vista</small>
+                                </span>
+                                <button type="button" class="mt-2 w-100 card-link btn btn-primary">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4" style="width: 15rem;">
+                        <div class="card">
+                            <img src="./imagens/outras/Laptop2.jpg" alt="imagem de um notebook exposto ao entardecer">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Notebook One</h5>
+                                <p class="card-text"><small>16 GB de RAM, tela de 14" 4K e Armazenamento de
+                                        1T</small>
+                                </p>
+                                <span>
+                                    Por: R$ 6.500,00 <small>à vista</small>
+                                </span>
+                                <button type="button" class="mt-2 w-100 card-link btn btn-primary">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4" style="width: 15rem;">
+                        <div class="card">
+                            <img src="./imagens/outras/Celular4.png" alt="imagem de um celular com a inscrição LOVE em vários formatos">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Smartphone Ultra¹</h5>
+                                <p class="card-text"><small>12 GB de RAM e 256 Gigas de Armazenamento</small>
+                                </p>
+                                <span>
+                                    Por: R$ 4.500,00 <small>à vista</small>
+                                </span>
+                                <button type="button" class="mt-2 w-100 card-link btn btn-primary">Comprar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="container">
+                <h2 class="col">Serviços e Amenidades</h2>
+                <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-4" style="width: 15rem;">
+                        <div class="card">
+                            <img src="./imagens/outras/Manutenção.jpg" alt="imagem de um aparelho eletrônico desmontado">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Manutenção</h5>
+                                <p class="card-text"><small>Realizamos a manutenção em aparelhos<br>
+                                    </small>
+                                </p>
+                                <button type="button" class="mt-2 w-100 card-link btn btn-primary">Orçamento</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4" style="width: 15rem;">
+                        <div class="card">
+                            <img src="./imagens/outras/capasDeCelular.png" alt="capas de celular de variadas cores">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Acessórios²</h5>
+                                <p class="card-text"><small>Temos acessórios para os mais diversos estilos
+                                    </small>
+                                </p>
+                                <button type="button" class="mt-2 w-100 card-link btn btn-primary">Consultar</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-4" style="width: 15rem;">
+                        <div class="card">
+                            <img src="./imagens/outras/cellphone-5459713.svg" alt="ilustração de uma moeda saindo de um celular">
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Troca com crédito³</h5>
+                                <p class="card-text"><small>Traga o seu equipamento usado e ganhe descontos</small>
+                                </p>
+                                <button type="button" class="mt-2 w-100 card-link btn btn-primary">Condições</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        ¹ A imagem aqui utilizada, a título ilustrativo, é uma Imagem de <a href="https://pixabay.com/pt/users/mohitmaurya809-16586764/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5388903">Mohit Maurya</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5388903">Pixabay</a>
+        <br>
+        ² A imagem aqui utilizada, a título ilustrativo, é uma Imagem de <a href="https://pixabay.com/pt/users/sofi5t-6957643/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5671111">Sofia Terzoni</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5671111">Pixabay</a>
+        <br>
+        ³ A imagem aqui utilizada, a título ilustrativo, é uma Imagem de <a href="https://pixabay.com/pt/users/megan_rexazin-6742250/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5459713">Megan Rexazin</a> por <a href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=5459713">Pixabay</a>
+        <br>
+        * As demais imagens foram obtidas via site leonardo.ai.
+    </footer>
+    <script src="./bootstrapDocs/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
